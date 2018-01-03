@@ -1,0 +1,14 @@
+//install
+D:\SoftWare>msiexec.exe /q /i mongodb-win32-i386-v3.2-latest-signed.msi INSTALLLOCATION="D:\MDB\" ADDLOCAL="all"
+
+//start
+D:\MDB\bin>mongod.exe --dbpath "D:\MDB\data\db"
+
+//connect
+D:\MDB\bin>mongo.exe
+
+
+
+show dbs
+use test
+use newDbName
